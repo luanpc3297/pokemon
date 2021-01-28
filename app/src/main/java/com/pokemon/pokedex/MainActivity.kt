@@ -31,6 +31,7 @@ class MainActivity : AppCompatActivity() {
                 }
                 R.id.navigation_moves -> {
                     // Respond to navigation item 2 click
+                    //sfgdfhfghg
                     true
                 }
                 R.id.navigation_items -> {
