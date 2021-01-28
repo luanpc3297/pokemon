@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Pokemon</string>
+    <string name="title_pokemons">Pokemon</string>
+    <string name="title_moves">Moves</string>
+    <string name="title_items">Items</string>
+    <string name="pokemon">Pokemon</string>
+    <string name="search">Search</string>
+    <string name="_001">#001</string>
+    <string name="tackle">Tackle</string>
+    <string name="_1000">1000</string>
+    <string name="move">Move</string>
+    <string name="item">Item</string>
+</resources>
