@@ -12,20 +12,20 @@ import com.pokemon.pokedex.R
 
 class ItemFragment : Fragment(R.layout.fragment_items) {
 
-//    private lateinit var notificationsViewModel: ItemViewModel
-//
-//    override fun onCreateView(
-//            inflater: LayoutInflater,
-//            container: ViewGroup?,
-//            savedInstanceState: Bundle?
-//    ): View? {
-//        notificationsViewModel =
-//                ViewModelProvider(this).get(ItemViewModel::class.java)
-//        val root = inflater.inflate(R.layout.fragment_items, container, false)
-//        val textView: TextView = root.findViewById(R.id.navigation_items)
-//        notificationsViewModel.text.observe(viewLifecycleOwner, Observer {
-//            textView.text = it
-//        })
-//        return root
-//    }
+    private lateinit var notificationsViewModel: ItemViewModel
+
+    override fun onCreateView(
+            inflater: LayoutInflater,
+            container: ViewGroup?,
+            savedInstanceState: Bundle?
+    ): View? {
+        notificationsViewModel =
+                ViewModelProvider(this).get(ItemViewModel::class.java)
+        val root = inflater.inflate(R.layout.fragment_items, container, false)
+        val textView: TextView = root.findViewById(R.id.navigation_items)
+        notificationsViewModel.text.observe(viewLifecycleOwner, Observer {
+            textView.text = it
+        })
+        return root
+    }
 }
